@@ -1,0 +1,21 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+header, #content-up, #content-below {width: 100%;}
+
+header {
+    height: 100px;
+    background-color: #e879e5;
+}
+
+#content-up {
+    height: 500px;
+    background-color: #e1d67c;
+    margin: 1% 0;
+}
+
+#content-below {
+
+}
