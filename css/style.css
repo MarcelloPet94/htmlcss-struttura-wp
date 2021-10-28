@@ -10,22 +10,20 @@ header {
     background-color: #e879e5;
 }
 
-main > div {
-    height: 500px;
-}
-
 #content-up {
+    height: 500px;
     background-color: #e1d67c;
     margin: 1% 0;
 }
 
 #content-below {
+    height: 500px;
     background-color: #0086f9;
 }
 
 #cb-top {
-    height: 20%;
-    margin-bottom: 2%;
+    height: 100px;
+    margin-bottom: 16px;
     background-color: #a9cfe7;
 }
 
@@ -38,8 +36,17 @@ main > div {
 #bx-sx {float: left;}
 #bx-dx {float: right;}
 
-.left, .right {
-    height: 78%;
-    width: 10%;
+.left, .center, .right {
+    height: 384px;
     background-color: #a9cfe7;
+}
+.center {
+    display: inline-block;
+    width: 76%;
+    margin: 0 2%;
+}
+
+.left, .right {
+    width: 10%;
+    
 }
