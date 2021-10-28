@@ -19,12 +19,15 @@ header {
 #content-below {
     height: 500px;
     background-color: #0086f9;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+
 }
 
 #cb-top {
     height: 100px;
-    margin-bottom: 16px;
     background-color: #a9cfe7;
+    margin-bottom: 16px;
 }
 
 #cb-top::after {
@@ -41,7 +44,7 @@ header {
     background-color: #a9cfe7;
 }
 .center {
-    display: inline-block;
+    float: left;
     width: 76%;
     margin: 0 2%;
 }
@@ -49,4 +52,9 @@ header {
 .left, .right {
     width: 10%;
     
+}
+
+footer {
+    height: 80px;
+    background-color:#8b01fd;
 }
